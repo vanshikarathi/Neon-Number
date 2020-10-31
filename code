@@ -1,0 +1,16 @@
+print("Press 1- To Check Number is Neon Number or Not")
+a= int(input("Enter Key to Start")
+if(a==1):
+	num=int(input("Enter a Number")
+	sq= num*num
+	while(sq>0):
+		sum=sum+sq%10
+		sq=sq//10
+	if (sum == num):
+		print(i,"is a Neon Number ")
+	else:
+		print(i,"is Not a Neon Number ")
+	break;
+else:
+	print("OPPs Wrong Selection")
+	break;
